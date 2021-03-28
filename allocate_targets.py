@@ -43,7 +43,7 @@ def sort_by_overall_dist(rated_combinations):
     return rated_combinations
 
 
-def alocate(maze):
+def allocate(maze):
     print('Starting Points: ', maze.agents)
     #print('Ending Points: ', maze.targets)
 
