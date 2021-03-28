@@ -35,11 +35,11 @@ def process_layout(layout):
     print("Enter 4 Pick-Up Locations (space separated in one line for each coordinate)")
     for i in range(4):
         a, b = map(int, input().split())
-        targets.append((b,a))
+        targets.append((a,b))
     print("Enter 4 Delivery Locations (space separated in one line for each coordinate)")
     for i in range(4):
         a, b = map(int, input().split())
-        delivery.append((b,a))
+        delivery.append((a,b))
 
     return maze, agents, targets, delivery
 
