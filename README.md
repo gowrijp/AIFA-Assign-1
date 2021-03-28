@@ -13,8 +13,7 @@ By default the program takes 4 pickup and delivery locations for the bot. Please
        
 ![Sample Input](https://github.com/gowrijp/AIFA-Assign-1/blob/main/Assets/input-sample.PNG)    
 
-  
-The final path taken for each bot is printed on console on successful execution of the algorithm before the start of the visualization.  
+   
 
 A* Search algorithm is one of the most popular and best techniques used in path-finding and graph traversals.Here we used the same to solve this problem using priority queue data structure (heapq).Since we are allowed to move only in four directions only (right, left, top, bottom), we used the Manhattan Distance heuristic which is nothing but the sum of absolute values of differences in the goal’s x and y coordinates and the current cell’s x and y coordinates respectively, i.e.,  
 
@@ -22,4 +21,10 @@ A* Search algorithm is one of the most popular and best techniques used in path-
 
 The allocate function in allocate_targets.py finds the best combination of pickup-delivery for each of the initial position of the bots in the warehouse using the a* algorithm and least time required to reach the targets.  
 
+The final path taken for each bot is printed on console on successful execution of the algorithm before the start of the visualization.   
+
+![Final Path](https://github.com/gowrijp/AIFA-Assign-1/blob/main/Assets/final-path.PNG) 
+
 The ArtistAnimation function from matplotlib library is used to animate the final path of each bot.
+
+![Sample Output](https://github.com/gowrijp/AIFA-Assign-1/blob/main/Assets/output.PNG) 
