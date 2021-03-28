@@ -44,9 +44,6 @@ def sort_by_overall_dist(rated_combinations):
 
 
 def allocate(maze):
-    print('Starting Points: ', maze.agents)
-    #print('Ending Points: ', maze.targets)
-
     distance_table = [[0 for x in range(len(maze.targets))]
                       for y in range(len(maze.agents))]
     path_table = [[0 for x in range(len(maze.targets))]
