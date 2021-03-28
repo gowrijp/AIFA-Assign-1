@@ -17,7 +17,7 @@ The layout of the maze is as defined in the file `data/maze_layout.txt` where X 
 
 By default the program takes 4 pickup and delivery locations for the bot. Please enter your inputs when prompted.  
        
-![Sample Input](https://github.com/gowrijp/AIFA-Assign-1/blob/main/Assets/input-sample.PNG)    
+![Sample Input](https://github.com/gowrijp/AIFA-Assign-1/blob/main/Assets/input.PNG)    
 
    
 
