@@ -27,4 +27,3 @@ The final path taken for each bot is printed on console on successful execution 
 
 The ArtistAnimation function from matplotlib library is used to animate the final path of each bot.
 
-![Sample Output](https://github.com/gowrijp/AIFA-Assign-1/blob/main/Assets/output.PNG) 
