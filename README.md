@@ -27,6 +27,8 @@ A* Search algorithm is one of the most popular and best techniques used in path-
 
 The allocate function in allocate_targets.py finds the best combination of pickup-delivery for each of the initial position of the bots in the warehouse using the a* algorithm and least time required to reach the targets.  
 
+Constraints are updated for every time step to make sure no cell is occupied by two bots at the same time.   
+
 The final path taken for each bot is printed on console on successful execution of the algorithm before the start of the visualization.   
 
 ![Final Path](https://github.com/gowrijp/AIFA-Assign-1/blob/main/Assets/final-path.PNG) 
