@@ -82,7 +82,7 @@ def transform_array_to_int(array, steps):
                 int_array[i][j] = 2
             elif array[i][j] == 'E':# Target (Pick up location) - Green
                 int_array[i][j] = 3
-            elif array[i][j] == 'R': #Delivery - Orange
+            elif array[i][j] == 'R':
                 int_array[i][j] = 2
 
     return int_array.astype(np.int)
