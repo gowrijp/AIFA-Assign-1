@@ -1,4 +1,10 @@
 # AIFA-Assign-1
+     
+<p align="center">
+  <img width="460" height="300" src="https://github.com/gowrijp/AIFA-Assign-1/blob/main/Assets/pathfinding.gif">
+</p>
+
+
 
 To run the program, please use the following steps.
 
