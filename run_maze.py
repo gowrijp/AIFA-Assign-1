@@ -5,7 +5,7 @@ import time
 import helper_func
 
 from a_star import run_a_star
-from alocate_targets import alocate
+from allocate_targets import allocate
 
 class Maze():
     def __init__(self, layout, original_layout, agents, targets, delivery):
@@ -62,7 +62,7 @@ def update_constraints(constraints, path):
     return constraints
 
 def run_solver(maze):
-    paths = alocate(maze)
+    paths = allocate(maze)
     sorted_paths = sorted(paths, key=lambda path: len(path), reverse=True)
     priority_path = sorted_paths.pop(0)
     constraints = []
